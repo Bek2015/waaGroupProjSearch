@@ -1,0 +1,77 @@
+.preview{
+    border:1px solid black;
+
+}
+.welcome{   
+    width:25%;
+    display: inline-block;
+    margin-left: 0px;
+
+}
+.login{
+    margin-right: 0px;
+    width:25%;
+    display: inline;
+
+
+}
+.loginBtn{
+    
+    float:right;
+    
+}
+.registerBtn{
+    margin-right: 8px;
+    float:right;
+    
+}
+.searchBtn{
+    display: inline-block;
+}
+.category{
+    margin-top: 8px;  
+    height: 26px;
+
+
+}
+.searchBar{
+
+    width: 50%;
+    height: 30px; 
+
+    display:inline-block;
+
+}
+
+
+/* Overwrite the scrolling of the menu items*/
+.ui-layout-west .ui-layout-unit-content {
+    overflow-x:hidden !important;
+    overflow-y:hidden !important;
+}
+.ui-layout-south .ui-layout-unit-content {
+    overflow-x:hidden !important;
+    overflow-y:hidden !important;
+}
+.ui-layout-north .ui-layout-unit-content {
+    overflow-x:hidden !important;
+    overflow-y:hidden !important;
+}
+/* Overwrite border */
+.ui-layout-pane-south {
+    border: 0;
+}
+.ui-layout-pane-north {
+    border: 0;
+}
+.ui-layout-pane-west {
+    border: 0;
+}
+.ui-layout-pane {
+    border: 0;
+}
+
+.header{
+    background-color: aquamarine!important;
+    overflow:hidden!important;
+}
